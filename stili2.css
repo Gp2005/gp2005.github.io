@@ -1,0 +1,15 @@
+body{
+    background-image: url(sfondo2.gif);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: white;
+}
+footer{
+    height: 30px;padding: 25px;
+}
+#img1{
+    width: 500px;height: 250px;
+}
+p{
+    color: white;text-decoration: wavy;
+}

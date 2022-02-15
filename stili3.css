@@ -1,0 +1,18 @@
+body{
+    background-image: url(sfondo.gif);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: justify;
+}
+footer{
+    padding: 25px;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;text-decoration: wavy;
+}
+#indirizzi{
+    color: white;
+}
+#indirizzi1{
+    color: white;
+}

@@ -1,0 +1,24 @@
+body{
+    background-image: url(sfondo3.gif);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    padding: 18px;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+#squadre{
+    color: white;
+}
+#img1{
+    height: 10px;width: 20px;
+}
+#img2{
+    height: 10px;width: 20px;
+}
+#img3{
+    height: 10px;width: 20px;
+}
