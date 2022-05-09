@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            input{
+                background-color: aquamarine;
+            }
+            body{
+                background-color: lightblue;text-align: center;
+            }
+            hr{
+                border-color: black;
+            }
+            footer{
+                background-color: aquamarine;
+            }
+
+
+        </style>
+        <script>
+            function numerinteri()
+            {
+                for(j=0;j<=10;j++)
+                {
+                    window.alert("Numero:"+j);
+                }
+            }
+            function stampaquadrati()
+            {
+                var quadrati=0;
+                for(i=0;i<10;i++)
+                {
+                    quadrati=i*i
+                    window.alert("Quadrato del numero:" +quadrati);
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1>Generatore Numeri</h1><h2>Da 0 a 10</h2>
+        <hr>
+        <input type="button" value="genera numeri interi" onclick="numerinteri()">
+        <input type="button" value="genera quadrati" onclick="stampaquadrati()">
+        <hr>
+    </body>
+</html>
