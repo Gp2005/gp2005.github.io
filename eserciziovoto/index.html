@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function voto()
+            {
+                var voto=document.getElementById('Voti').value;
+                var scritta;
+                var valutazione;
+                if(voto>=7)
+                {
+                    valutazione="ottimo";
+                    scritta="Complimenti!";
+                    document.getElementById("voto").innerHTML=voto;
+                    document.getElementById("valutazione").innerHTML=valutazione;
+                    document.getElementById("scritta").innerHTML=scritta
+                }
+                if(voto<=7&&voto>=5)
+                {
+                    valutazione="sufficente";
+                    scritta="Puoi fare di meglio!";
+                    document.getElementById("voto").innerHTML=voto;
+                    document.getElementById("valutazione").innerHTML=valutazione;
+                    document.getElementById("scritta").innerHTML=scritta
+                }
+                if(voto<=5)
+                {
+                    valutazione="Insufficente";
+                    scritta="Devi studiare!";
+                    document.getElementById("voto").innerHTML=voto;
+                    document.getElementById("valutazione").innerHTML=valutazione;
+                    document.getElementById("scritta").innerHTML=scritta;
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1>Esercizio Voti</h1>
+        <select name="Voti" id="Voti">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <hr>
+            <input type="button" value="Clicca!" onclick="voto()">
+            <br><br><br>
+            <div id="voto"></div>
+            <div id="valutazione"></div>
+            <div id="scritta"></div>
+            
+        </select>
+    </body>
+</html>
