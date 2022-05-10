@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function immagine(){
+                var numero=document.getElementById('numero').value;
+
+                var image = document.getElementById('immagine')
+                if(numero>=18){
+
+                    image.src="luna.jpg"
+                }
+                else{
+                    image.src="sole.jpg"
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1>Esercitazione if</h1>
+        <p>Inserisci numero</p>
+            <input id="numero">
+            <br>
+            <br>
+            <button onclick="immagine()">Clicca!</button>
+            <hr>
+        <div>
+            <img id="immagine">
+        </div>
+        
+        
+
+    </body>
+</html>
